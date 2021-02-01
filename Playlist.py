@@ -48,12 +48,3 @@ class Playlist:
     for i in range(len(self.songlist)): 
       print (f"{n}. {self.songlist[i]}") 
       n += 1
-
-
-dog = Playlist()
-
-dog.add_song("lemon")
-dog.add_song("demon")
-dog.print_songs()
-index = dog.find_song("lemon")
-print(index)
